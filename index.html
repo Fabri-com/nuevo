@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: darkslategray;
+        }
+        .carousel-container {
+            width: 50%; 
+            margin: auto;
+            background-color: #6A5ACD; 
+            }
+        .footer {
+            background-color: #68b6b6; 
+            color: #000000; 
+            text-align: center;
+            padding: 20px;
+            
+        }
+        h1, h2 {
+            color: #FFD700;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Starwars</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nuevos estrenos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Club de fan</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1 class="text-center text-white">Starwars</h1>
+
+    <div id="carousel-nuevo" class="carousel slide carousel-container" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/1.jpg" class="d-block w-100" alt="Mandalorian 1">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/2.jpg" class="d-block w-100" alt="Mandalorian 2">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/3.jpg" class="d-block w-100" alt="Mandalorian 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-nuevo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-nuevo" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Starwars</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Nuevos estrenos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Club de fan</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+    <main class="container mt-5 text-white">
+        <h2>Acerca de la serie</h2>
+        <p>Algunas novedades de Star Wars son:
+            Se anunció una nueva película centrada en Rey, que se ambientará después de El Ascenso de Skywalker. Sharmeen Obaid-Chinoy, quien dirigió los episodios 4 y 5 de Ms. Marvel, será la directora. 
+            Se estrenará en 2026 The Mandalorian y Grogu. 
+            También se estrenará en 2026 Star Wars: Lando. 
+            En 2027 se estrenará una película de Taika Waititi. 
+            En 2028 se estrenará Star Wars: Dawn of the Jedi, dirigida por James Mangold. 
+            Se estrenará el tercer volumen de Star Wars: Visions en 2025. 
+            Se está desarrollando una serie que se centrará en un grupo de niños perdidos en la galaxia. Jon Watts, responsable de la trilogía de Spider-Man de Tom Holland, es el creador de la serie. 
+            Se está desarrollando una nueva trilogía escrita y dirigida por Johnson. 
+            Se están desarrollando un par de largometrajes por el director J. D. Dillard. 
+            La franquicia de Star Wars ha estado inactiva en cuanto a películas desde el estreno de El Ascenso de Skywalker en 2019. </p>
+    </main>
+    
+
+    <footer class="footer">
+        <blond>
+        <p>Imagenes extraida oficialmente de la pagina de star wars</p>
+        <p>contacto <a href="https://www.starwars.com/">starwars</a> </p>
+        </blond>
+    </footer>
+
+</body>
+</html>
